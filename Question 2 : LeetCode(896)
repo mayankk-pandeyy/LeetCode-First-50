@@ -1,0 +1,22 @@
+  bool isMonotonic(vector<int>& nums) {
+        bool isInc = 0;
+        bool isDec = 0;
+        int n = nums.size();
+        if(is_sorted(nums.begin(),nums.end())){
+            isInc = 1;
+            return isInc;
+        }else{
+            int i = 0;
+            int j = n-1;
+            while(i<j){
+                swap(nums[i], nums[j]);
+                i++;
+                j--;
+            }
+            if(is_sorted(nums.begin(), nums.end())){
+                isDec = 1;
+                return isDec;
+            }
+        }
+        return 0;
+    }
