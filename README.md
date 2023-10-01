@@ -16,3 +16,5 @@ Question 5 : https://leetcode.com/problems/reverse-words-in-a-string-iii/descrip
 Question 6 : https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/
 
 Question 7 : https://leetcode.com/problems/palindrome-number/description/
+
+Question 8 : https://leetcode.com/problems/plus-one/
