@@ -1,0 +1,18 @@
+public:
+    bool isPalindrome(int x) {
+        int temp = x;
+        if(x<0){
+            return 0;
+        }
+        long newNum = 0;
+        while(temp!=0){
+            int digit = temp%10;
+            newNum = newNum * 10 + digit;
+            temp = temp/10;
+        }
+        if(x == (int)newNum){
+            return true;
+        }
+        return false;
+    }
+};
