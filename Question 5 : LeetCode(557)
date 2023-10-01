@@ -1,0 +1,12 @@
+public:
+    string reverseWords(string s) {
+        stringstream value(s);
+        string word;
+        string ans;
+        while(value >> word){
+            reverse(word.begin(), word.end());
+            ans = ans+(word+' ');
+        }
+        return ans;
+    }
+};
