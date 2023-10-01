@@ -14,3 +14,5 @@ Question 4 : https://leetcode.com/problems/132-pattern/description/?envType=dail
 Question 5 : https://leetcode.com/problems/reverse-words-in-a-string-iii/description/?envType=daily-question&envId=2023-10-01
 
 Question 6 : https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/
+
+Question 7 : https://leetcode.com/problems/palindrome-number/description/
