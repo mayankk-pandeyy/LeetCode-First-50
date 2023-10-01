@@ -1,0 +1,14 @@
+    vector<int> replaceElements(vector<int>& arr) {
+        int size = arr.size();
+        int maxVal = arr[size-1];
+        int temp = maxVal; //We can't initialize temp = 0;
+        arr[size-1] = -1;
+        for(int i=size-2; i>=0; i--){
+            if(arr[i] > maxVal){
+                temp = arr[i];
+            }
+            arr[i] = maxVal;
+            maxVal = temp;
+        }
+        return arr;
+    }
