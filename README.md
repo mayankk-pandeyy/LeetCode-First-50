@@ -20,3 +20,5 @@ Question 7 : https://leetcode.com/problems/palindrome-number/description/
 Question 8 : https://leetcode.com/problems/plus-one/
 
 Question 9 : https://leetcode.com/problems/factorial-trailing-zeroes/description/
+
+Question 10 : https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/description/
