@@ -22,3 +22,15 @@ Question 8 : https://leetcode.com/problems/plus-one/
 Question 9 : https://leetcode.com/problems/factorial-trailing-zeroes/description/
 
 Question 10 : https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/description/
+
+Question 11 : https://leetcode.com/problems/sort-colors/description/
+
+Question 12 : https://leetcode.com/problems/rotate-array/
+
+Question 13 : https://leetcode.com/problems/missing-number/
+
+Question 14 : https://leetcode.com/problems/row-with-maximum-ones/description/
+
+Question 15 : https://leetcode.com/problems/rotate-image/
+
+Question 16 : https://leetcode.com/problems/number-of-good-pairs/description/
