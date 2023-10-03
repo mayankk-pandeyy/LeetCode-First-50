@@ -1,0 +1,23 @@
+class Solution {
+public:
+    vector<int> rowAndMaximumOnes(vector<vector<int>>& mat) {
+        int maxOnesCount = 0;
+        vector<int> ans;
+        int row = 0;
+        for(int i=0; i<mat.size(); i++){
+            int currOnesCount = 0;
+            for(int j=0; j<mat[0].size(); j++){
+                if(mat[i][j] == 1){
+                    currOnesCount++;
+                }
+            }
+            if(currOnesCount > maxOnesCount){
+                maxOnesCount = currOnesCount;
+                row = i;
+            }
+        }
+        ans.push_back(row);
+        ans.push_back(maxOnesCount);
+        return ans;
+    }
+};
