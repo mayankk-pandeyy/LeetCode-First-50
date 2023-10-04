@@ -1,0 +1,20 @@
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        int currIndex = 1;
+        int zeroIndex = 0;
+        int n = nums.size();
+        while(currIndex < n){
+            if(nums[zeroIndex] != 0){
+                zeroIndex++;
+                currIndex++;
+            }else if(nums[currIndex] != 0){
+                swap(nums[zeroIndex], nums[currIndex]);
+                zeroIndex++;
+                currIndex++;
+            }else{
+                currIndex++;
+            }
+        }
+    }
+};
