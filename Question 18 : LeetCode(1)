@@ -1,0 +1,74 @@
+Code 1 - "BruteForce
+Time : O(n2)
+Space : O(1)
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector<int> ans;
+        for(int i=0; i<nums.size()-1; i++){
+            for(int j=i+1; j<nums.size(); j++){
+                if(nums[i] + nums[j] == target){
+                    ans.push_back(i);
+                    ans.push_back(j);
+                    break;
+                }
+            }
+        }
+        return ans;
+    }
+};
+-----------------------------------------------------------------------
+
+Code 2 - "Optimization without Hashmaps"
+Time : O(nlog(n) + n) = O(nlog(n))
+Space : O(n)
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector <int> temp(nums.size(),0);
+        for(int i=0; i<nums.size(); i++){
+            temp[i] = nums[i];
+        }
+        sort(nums.begin(), nums.end());
+        int left = 0;
+        int right = nums.size()-1;
+        while(left < right){
+            if(nums[left]  +nums[right] < target){
+                left++;
+            }else if(nums[left] + nums[right] == target){
+                break;
+            }else{
+                right--;
+            }
+        }
+        vector<int> ans;
+        for(int i=0; i<temp.size(); i++){
+            if(temp[i] == nums[left]){
+                ans.push_back(i);
+            }else if(temp[i] == nums[right]){
+                ans.push_back(i);
+            }
+        }
+        return ans;
+    }
+};
+-----------------------------------------------------------------------------
+
+Code 3 - "Most Optimized"
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> numToIndex;
+        
+        for (int i = 0; i < nums.size(); i++) {
+            int complement = (target - nums[i]);
+            if (numToIndex.count(complement)) {
+                return {numToIndex[complement], i};
+            }
+            numToIndex[nums[i]] = i;
+        }
+        
+        return {};
+    }
+};
