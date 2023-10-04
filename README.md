@@ -38,3 +38,5 @@ Question 16 : https://leetcode.com/problems/number-of-good-pairs/description/
 Question 17 : https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/
 
 Question 18 : https://leetcode.com/problems/two-sum/
+
+Question 19 : https://leetcode.com/problems/single-number/description/
