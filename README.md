@@ -42,3 +42,5 @@ Question 18 : https://leetcode.com/problems/two-sum/
 Question 19 : https://leetcode.com/problems/single-number/description/
 
 Question 20 : https://leetcode.com/problems/move-zeroes/description/
+
+Question 21 : https://leetcode.com/problems/majority-element-ii/description/?envType=daily-question&envId=2023-10-05
