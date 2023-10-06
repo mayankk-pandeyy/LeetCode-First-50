@@ -44,3 +44,7 @@ Question 19 : https://leetcode.com/problems/single-number/description/
 Question 20 : https://leetcode.com/problems/move-zeroes/description/
 
 Question 21 : https://leetcode.com/problems/majority-element-ii/description/?envType=daily-question&envId=2023-10-05
+
+question 22 : https://leetcode.com/problems/majority-element/description/
+
+Question 23 : https://leetcode.com/problems/most-frequent-even-element/description/
