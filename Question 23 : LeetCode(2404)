@@ -1,0 +1,19 @@
+public:
+    int mostFrequentEven(vector<int>& nums) {
+        int ans = -1;
+        map<int, int> map;
+        for(int i=0; i<nums.size(); i++){
+            if(nums[i]%2 == 0){
+                map[nums[i]]++;
+            }
+        }
+        int maxCount = INT_MIN;
+        for(auto i : map){
+            if(i.second > maxCount){
+                ans = i.first;
+                maxCount = i.second;
+            }
+        }
+        return ans;
+    }
+};
