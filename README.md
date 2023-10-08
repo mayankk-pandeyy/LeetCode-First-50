@@ -56,3 +56,5 @@ Question 25 : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 Question 26 : https://leetcode.com/contest/weekly-contest-366/problems/divisible-and-non-divisible-sums-difference/
 
 Question 27 : https://leetcode.com/contest/weekly-contest-366/problems/minimum-processing-time/
+
+Question 28 : https://leetcode.com/problems/maximum-average-subarray-i/description/
