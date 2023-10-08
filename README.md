@@ -50,3 +50,9 @@ question 22 : https://leetcode.com/problems/majority-element/description/
 Question 23 : https://leetcode.com/problems/most-frequent-even-element/description/
 
 Question 24 : https://leetcode.com/problems/spiral-matrix/description/
+
+Question 25 : https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+
+Question 26 : https://leetcode.com/contest/weekly-contest-366/problems/divisible-and-non-divisible-sums-difference/
+
+Question 27 : https://leetcode.com/contest/weekly-contest-366/problems/minimum-processing-time/
