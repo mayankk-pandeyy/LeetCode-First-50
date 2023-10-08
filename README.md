@@ -58,3 +58,5 @@ Question 26 : https://leetcode.com/contest/weekly-contest-366/problems/divisible
 Question 27 : https://leetcode.com/contest/weekly-contest-366/problems/minimum-processing-time/
 
 Question 28 : https://leetcode.com/problems/maximum-average-subarray-i/description/
+
+Question 29 : https://leetcode.com/problems/binary-search/description/
