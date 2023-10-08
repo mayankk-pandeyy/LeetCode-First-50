@@ -1,0 +1,22 @@
+public:
+    int minProcessingTime(vector<int>& processorTime, vector<int>& tasks) {
+        sort(processorTime.begin(), processorTime.end());
+        sort(tasks.begin(), tasks.end());
+        int n = processorTime.size();
+        int m = tasks.size();
+        vector<int> max;
+        for(int i=3; i<m; i+=4){
+            max.push_back(tasks[i]);
+        }
+        int ans = 0;
+        int cn = 0;
+        for(int i = max.size()-1; i>=0; i--){
+            int sum = processorTime[cn] + max[i];
+            if(sum > ans){
+                ans = sum;
+            }
+            cn++;
+        }
+        return ans;
+    }
+};
