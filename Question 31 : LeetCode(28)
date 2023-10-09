@@ -1,0 +1,23 @@
+public:
+    int strStr(string haystack, string needle) {
+        int hayLength = haystack.length();
+        int needLength = needle.length();
+        int i=0;
+        int j= 0;
+        while(i<hayLength && j<needLength){
+            if(haystack[i] == needle[j]){
+                i++;
+                j++;
+            }else if(haystack[i] != needle[j] && j!=0){
+                i=i-j+1;
+                j=0;
+            }else{
+                i++;
+            }
+            if(j==needLength){
+                return i-needLength;
+            }
+        }
+        return -1;
+    }
+};
