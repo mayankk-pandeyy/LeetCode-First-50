@@ -62,3 +62,5 @@ Question 28 : https://leetcode.com/problems/maximum-average-subarray-i/descripti
 Question 29 : https://leetcode.com/problems/binary-search/description/
 
 Question 30 : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+
+Question 31 : https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
