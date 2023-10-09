@@ -60,3 +60,5 @@ Question 27 : https://leetcode.com/contest/weekly-contest-366/problems/minimum-p
 Question 28 : https://leetcode.com/problems/maximum-average-subarray-i/description/
 
 Question 29 : https://leetcode.com/problems/binary-search/description/
+
+Question 30 : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
