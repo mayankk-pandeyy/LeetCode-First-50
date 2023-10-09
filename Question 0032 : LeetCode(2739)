@@ -1,0 +1,23 @@
+public:
+    int distanceTraveled(int mainTank, int additionalTank) {
+        if(mainTank < 5){
+            return mainTank*10;
+        }
+        int distance = 0;
+        while(mainTank){
+            if(mainTank >= 5){
+                distance = distance + 5 * 10;
+                if(additionalTank >= 1){
+                    mainTank = mainTank - 5 + 1;;
+                    additionalTank--;
+                }else{
+                    mainTank = mainTank - 5;
+                }
+            }else{
+                distance = distance + mainTank*10;
+                mainTank = 0;
+            }
+        }
+        return distance;
+    }
+};
