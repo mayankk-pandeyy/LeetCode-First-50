@@ -66,3 +66,5 @@ Question 30 : https://leetcode.com/problems/find-first-and-last-position-of-elem
 Question 31 : https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
 
 Question 32 : https://leetcode.com/problems/total-distance-traveled/description/
+
+Question 33 : https://leetcode.com/problems/valid-boomerang/description/
