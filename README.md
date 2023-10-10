@@ -68,3 +68,5 @@ Question 31 : https://leetcode.com/problems/find-the-index-of-the-first-occurren
 Question 32 : https://leetcode.com/problems/total-distance-traveled/description/
 
 Question 33 : https://leetcode.com/problems/valid-boomerang/description/
+
+Question 34 : https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
