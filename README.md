@@ -72,3 +72,5 @@ Question 33 : https://leetcode.com/problems/valid-boomerang/description/
 Question 34 : https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
 
 Question 35 : https://leetcode.com/problems/merge-strings-alternately/description/
+
+Question 36 : https://leetcode.com/problems/greatest-common-divisor-of-strings/description/?envType=study-plan-v2&envId=leetcode-75
