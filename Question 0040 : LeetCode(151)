@@ -1,0 +1,50 @@
+//Two Different Approach : C++ & Javascript
+
+
+//C++ Solution : 
+
+
+class Solution {
+public:
+    string reverseWords(string s) {
+        stack<string> temp;
+        string word = "";
+        for(int i=0; i<s.size(); i++){
+            if(s[i] != ' '){
+                word+=s[i];
+            }else if(s[i] == ' ' && word.size()!=0){
+                temp.push(word);
+                word="";
+            }
+            if(i==s.size()-1 && word.size()!=0){
+                temp.push(word);
+                word = "";
+            }
+        }
+        while(!temp.empty()){
+            if(temp.size()!=1){
+                word = word+temp.top();
+                temp.pop();
+                word.push_back(' ');
+            }else{
+                word = word+temp.top();
+                temp.pop(); 
+            }
+        }
+        return word;
+    }
+};
+
+
+//JavaScript Solution : 
+
+var reverseWords = function(s) {
+    const myArr = s.split(' ');
+    let ans = "";
+    for(let i=myArr.length-1; i>=0; i--){
+        if(myArr[i] != ""){
+            ans = ans + (ans? " " : "") + myArr[i];
+        }
+    }
+    return ans;
+};
