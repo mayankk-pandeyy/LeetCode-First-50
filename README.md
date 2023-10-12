@@ -76,3 +76,5 @@ Question 35 : https://leetcode.com/problems/merge-strings-alternately/descriptio
 Question 36 : https://leetcode.com/problems/greatest-common-divisor-of-strings/description/?envType=study-plan-v2&envId=leetcode-75
 
 Question 37 : https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/
+
+Question 38 : https://leetcode.com/problems/can-place-flowers/description/?envType=study-plan-v2&envId=leetcode-75
