@@ -84,3 +84,5 @@ Question 39 : https://leetcode.com/problems/reverse-vowels-of-a-string/descripti
 Question 40 : https://leetcode.com/problems/reverse-words-in-a-string/description/?envType=study-plan-v2&envId=leetcode-75
 
 Question 41 : https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75
+
+Question 42 : https://leetcode.com/problems/fibonacci-number/description/
