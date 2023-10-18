@@ -92,3 +92,5 @@ Question 43 : https://leetcode.com/contest/biweekly-contest-115/problems/last-vi
 Question 44 : https://leetcode.com/contest/biweekly-contest-115/problems/longest-unequal-adjacent-groups-subsequence-i/
 
 Question 45 : https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+
+Question 46 : https://leetcode.com/problems/sqrtx/description/
