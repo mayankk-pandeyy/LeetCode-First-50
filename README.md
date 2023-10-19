@@ -94,3 +94,5 @@ Question 44 : https://leetcode.com/contest/biweekly-contest-115/problems/longest
 Question 45 : https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 
 Question 46 : https://leetcode.com/problems/sqrtx/description/
+
+Question 47 : https://leetcode.com/problems/search-a-2d-matrix/description/
