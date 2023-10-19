@@ -98,3 +98,7 @@ Question 46 : https://leetcode.com/problems/sqrtx/description/
 Question 47 : https://leetcode.com/problems/search-a-2d-matrix/description/
 
 Question 48 : https://leetcode.com/problems/divide-two-integers/description/
+
+Question 49 : https://leetcode.com/problems/backspace-string-compare/description/?envType=daily-question&envId=2023-10-19
+
+Question 50 : https://leetcode.com/problems/valid-perfect-square/
