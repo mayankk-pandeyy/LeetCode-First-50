@@ -1,0 +1,36 @@
+class Solution {
+public:
+    int divide(int dividend, int divisor) {
+        // An Edge Case
+        if(dividend==INT_MIN && divisor==-1){
+            return INT_MAX;
+        }
+        if(dividend==INT_MIN && divisor==1){
+            return INT_MIN;
+        }
+        long long posDividend = abs(dividend);
+        long long posDivisor = abs(divisor);
+        long long start = 0;
+        long long end = posDividend;
+        int ans = 0;
+        while(start <= end){
+            long long mid = start + (end - start)/2;
+            long long temp = mid*posDivisor;
+            if(temp == posDividend){
+                ans = mid;
+                break;
+            }
+            if(temp > posDividend){
+                end = mid -1;
+            }else{
+                ans = mid;
+                start = mid + 1;
+            }
+        }
+        if((dividend < 0 && divisor >0) || (dividend > 0 && divisor <0) ){
+            ans = -1 * ans;
+            return ans;
+        }
+        return ans;
+    }
+};
